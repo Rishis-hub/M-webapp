@@ -7,6 +7,13 @@
   <version>1.0-SNAPSHOT</version>
   <name>01-maven-web-app Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <url>http://13.201.22.31:8081/repository/Rishikesh-release/</url>
+    </repository>
+  </distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
